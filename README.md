@@ -1,4 +1,4 @@
-# SLeDoc: System for Legal Document Comparison 🖥️✨
+# LDC - Legal Document Comparison 🖥️✨
 
 Gradio-based UI for comparing documents and spotting meaningful semantic matches/mismatches.
 
@@ -8,15 +8,12 @@ Gradio-based UI for comparing documents and spotting meaningful semantic matches
 
 ![UI screenshot](example_data/ui.png)
 
-We present SLeDoC, a system for pairwise,
-span-aware semantic document comparison that moves beyond
-token- or character-level matching to semantic judgments. SLeDoC
-combines information-retrieval (IR) techniques with state-of-the art large language models (LLMs).
+We present LDC, a system for pairwise, span-aware semantic document comparison that moves beyond token- or character-level matching to semantic judgments. Legal document comparison combines information-retrieval (IR) techniques with state-of-the art large language models (LLMs).
 
 # Overview 🌿
 
 ## What This Repo Delivers 🎯
-SLeDoc provides an end-to-end flow to compare two documents, align their claims, and surface semantic mismatches with short, readable explanations.
+LDC provides an end-to-end flow to compare two documents, align their claims, and surface semantic mismatches with short, readable explanations.
 
 The primary UI lives in `app/full_pipeline_new.py`.
 
